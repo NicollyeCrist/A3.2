@@ -31,11 +31,12 @@ VALUES
 
 INSERT INTO usuario (nome, cpf, telefone)
 VALUES 
-('Administrador', '12345678900', '83912345678');
+('Administrador', '12345678900', '83912345678'),
+('Gerente', '12345678910', '83989999999');
 
 INSERT INTO login (cpf, login, senha, nivel)
 VALUES
-('12345678900', 'admin', 'admin', 1);
+('12345678900', 'admin', 'admin', 1),
+('12345678910', 'gerente', 'gerente', 2);
 
 UPDATE login SET senha = MD5(senha) WHERE login = login;
-
