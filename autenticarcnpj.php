@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-include('validarlogin.php');
+include('validalogin.php');
 
 $cnpj = isset($_POST['cnpj']) ? $_POST['cnpj'] : '';
 
