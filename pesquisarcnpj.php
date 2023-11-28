@@ -2,7 +2,7 @@
 
 session_start();
 
-include('validarlogin.php');
+include('validalogin.php');
 ?>
 
 <!DOCTYPE html>
